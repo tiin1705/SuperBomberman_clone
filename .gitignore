@@ -97,3 +97,12 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Nested Unity Project ignores
+Bomberman/[Ll]ibrary/
+Bomberman/[Tt]emp/
+Bomberman/[Oo]bj/
+Bomberman/[Bb]uild/
+Bomberman/[Bb]uilds/
+Bomberman/[Ll]ogs/
+Bomberman/[Uu]ser[Ss]ettings/
