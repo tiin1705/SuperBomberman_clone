@@ -33,12 +33,28 @@ namespace Player
 
         private void Update()
         {
+            CheckComponents();
+            GetDirection();
+            GetSpeed();
+            SetDirection();
+            SetAnimation();
+        }
+
+        private void CheckComponents(){
             if (inputProvider == null || movement == null || stats == null) return;
+        }
+        private void GetDirection(){
             Vector2 direction = inputProvider.MoveDirection;
+        }
+        private void GetSpeed(){
             float speed = stats.MoveSpeed;
+        }
 
+        private void SetDirection(){
             movement.SetInput(direction, speed);
+        }
 
+        private void SetAnimation(){
             if(playerAnimation != null)
             {
                 playerAnimation.UpdateAnimation(direction);
