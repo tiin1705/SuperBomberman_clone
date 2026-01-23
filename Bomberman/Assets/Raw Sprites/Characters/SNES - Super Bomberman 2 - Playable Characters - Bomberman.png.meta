@@ -628,7 +628,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Bomberman 2 - Playable Characters - Bomberman_3
+      name: right1
       rect:
         serializedVersion: 2
         x: 0
@@ -765,7 +765,7 @@ TextureImporter:
         serializedVersion: 2
         x: 32
         y: 801
-        width: 31
+        width: 16
         height: 25
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -3686,7 +3686,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Bomberman 2 - Playable Characters - Bomberman_142
+      name: righ2
       rect:
         serializedVersion: 2
         x: 16
@@ -3708,11 +3708,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SNES - Super Bomberman 2 - Playable Characters - Bomberman_143
+      name: right3
       rect:
         serializedVersion: 2
         x: 32
-        y: 865
+        y: 867
         width: 16
         height: 24
       alignment: 7
@@ -3794,8 +3794,6 @@ TextureImporter:
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_14: -5931567606703691782
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_140: 5814385784766959111
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_141: -7219083510727449205
-      SNES - Super Bomberman 2 - Playable Characters - Bomberman_142: 2002060985
-      SNES - Super Bomberman 2 - Playable Characters - Bomberman_143: 143941470
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_15: -4804515546758233885
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_16: 7918158992978471330
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_17: -4093870922293711543
@@ -3812,7 +3810,6 @@ TextureImporter:
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_27: -1596366514704718780
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_28: 5380205855478847328
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_29: -3708548775887424772
-      SNES - Super Bomberman 2 - Playable Characters - Bomberman_3: 6405223179726961080
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_30: -9206971867144697313
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_31: 1967868010018601673
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_32: -292503090095441206
@@ -3889,6 +3886,9 @@ TextureImporter:
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_97: -6319943405070489391
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_98: 2165732781369966331
       SNES - Super Bomberman 2 - Playable Characters - Bomberman_99: 6751502231635416511
+      righ2: 2002060985
+      right1: 6405223179726961080
+      right3: 143941470
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

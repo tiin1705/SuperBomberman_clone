@@ -3,12 +3,14 @@ using Core.Inputs;
 using Player.Data;
 using Player.Logic;
 using System;
+using Player.Visuals;
 namespace Player
 {
     public class PlayerController : MonoBehaviour
     {
         [Header("Component")]
         [SerializeField] private PlayerMovement movement;
+        [SerializeField] private PlayerAnimation playerAnimation;
         private IInputProvider inputProvider;
 
         [Header("Data")]
@@ -21,14 +23,26 @@ namespace Player
             {
                 movement = GetComponent<PlayerMovement>();
             }
+
+            if(playerAnimation == null)
+            {
+                playerAnimation = GetComponent<PlayerAnimation>();
+            }
+
         }
 
-            private void Update()
+        private void Update()
         {
-            Vector2 director = inputProvider.MoveDirection;
+            if (inputProvider == null || movement == null || stats == null) return;
+            Vector2 direction = inputProvider.MoveDirection;
             float speed = stats.MoveSpeed;
 
-            movement.SetInput(director, speed);
+            movement.SetInput(direction, speed);
+
+            if(playerAnimation != null)
+            {
+                playerAnimation.UpdateAnimation(direction);
+            }
         }
     }
 }
